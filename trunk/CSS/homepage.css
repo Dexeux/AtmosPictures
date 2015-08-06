@@ -1,0 +1,67 @@
+/* logo colour #33466C */
+/* magenta type: #C85368 */
+/* cyan type: #00959A */
+/* orange type: #C8531A */
+
+header {
+    width: 1280px;
+    height: 350px;
+    margin: 0 auto;
+    background-color: #00959A;
+    position:relative;
+}
+
+.login {
+    position: absolute;
+    top:0px;
+    right:0px;
+    z-index:2;
+}
+
+.logo {
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index:2; 
+}
+
+
+header ul{
+    background: #33466C;
+    position: absolute;
+    top:50px;
+    left:340px;
+    height:50px;
+    z-index:1;
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+}
+
+header li{
+    display: inline;
+    margin-left:25px;
+    margin-right:25px;
+}
+
+header a:link {
+    color: #C8531A;
+    text-decoration:none;
+}
+
+header a:visited {
+    color: #00FF00;
+    text-decoration:none;
+}
+
+
+header a:hover {
+    color: #C8531A;
+    text-decoration:none;
+}
+
+
+header a:active {
+    color: #0000FF;
+    text-decoration:none;
+}
