@@ -1,3 +1,1 @@
-# AtmosPictures
-AtmosPictures
-well hello there
+© 20015 Atmos Pictures All Rights Reserved.
