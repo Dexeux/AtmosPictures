@@ -9,6 +9,7 @@ header {
     margin:  auto;
     background-color: #00959A;
     position:relative;
+	
 }
 
 .login {
@@ -39,8 +40,10 @@ header ul{
     z-index:1;
     list-style-type:none;
     padding: 0;
+
     margin-top: -100px;
 	
+
 }
 
 header li{
