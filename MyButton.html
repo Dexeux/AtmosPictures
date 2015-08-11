@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+
+<h1 id="headering">Just Please Don't Push My Button</h1>
+
+<p id="textlocation"><p>
+
+
+<p id ="thatbutton">
+<button id ="thatbutton2" type="button" onclick="myFunction()">This is my button.</button>
+</p>
+
+<script>
+
+function myFunction() {
+    var numbercount = 0;
+    var numbermax = 200;
+    while (numbercount < numbermax)  {
+	document.getElementById("headering").innerHTML ="Just Please Don't Push My <u>dank memes</u>";
+    	document.getElementById("thatbutton2").innerHTML ="dank memes";
+	var t = document.createTextNode("dank memes ");
+   	document.body.appendChild(t);
+	numbercount++;
+    }
+}
+</script>
+
+
+</body>
+</html>
