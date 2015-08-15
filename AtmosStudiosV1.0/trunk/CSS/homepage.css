@@ -5,7 +5,7 @@
 }
 body{
   background-image: url("../images/back1.jpg");
-  
+
   background-size:100%;
   margin:0;
   padding:0;
@@ -25,15 +25,25 @@ body{
 
   padding-top:35px;
   padding-left:37.5px;
+  padding-right:37.5px;
 }
 .link{
   float:left;
+  padding-left:25px;
+  padding-right:25px;
   padding-top:55px;
-  padding-left:80px;
+  text-align:center;
   color:white;
-  font-size:20px;
-  font-family:sinkin;
-
+  font-size:18px;
+  font-family:Trebuchet MS;
+}
+.divider{
+  float:left;
+  padding-top:55px;
+  text-align:center;
+  color:white;
+  font-size:18px;
+  font-family:Trebuchet MS;
 }
 .footer{
   position:fixed;
