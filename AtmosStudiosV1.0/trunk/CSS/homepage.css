@@ -4,8 +4,11 @@
   src:url('../images/sinkin-sans.500-medium.otf');
 }
 body{
-  background-image: url("../images/back1.jpg");
-  background-size:cover;
+  background: url("../images/back1.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   margin:0;
   padding:0;
 }
