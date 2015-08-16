@@ -11,25 +11,30 @@ body{
   background-size: cover;
   margin:0;
   padding:0;
+  overflow: auto;
 }
 .header{
   width:100%;
-  height:125px;
+  height:130px;
   background: -webkit-linear-gradient(bottom, rgba(255,0,0,0), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(top, rgba(255,0,0,0), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(top, rgba(255,0,0,0), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to top, rgba(255,0,0,0), rgba(0,0,0,1)); /* Standard syntax (must be last) */
 }
-
+.left-header{
+  height:auto;
+  width:1000px;
+}
 .picture{
   /*image height 50px */
-  float:left;
-  padding-top:35px;
+  display: inline-block;
+  padding-top:36.5px;
   padding-left:37.5px;
   padding-right:37.5px;
+  padding-bottom:43.5px;
 }
 .link{
-  float:left;
+  display: inline-block;
   padding-top:40px;
   padding-bottom:40px;
   height:50px;
@@ -46,7 +51,7 @@ body{
 }
 .divider{
   float:left;
-  padding-top:55px;
+  padding-top:15px;
   text-align:center;
   color:white;
   font-size:18px;
@@ -56,7 +61,7 @@ body{
   position:fixed;
   bottom:0px;
   width:100%;
-  height:125px;
+  height:130px;
   background: -webkit-linear-gradient(top, rgba(255,0,0,0), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(bottom, rgba(255,0,0,0), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(bottom, rgba(255,0,0,0), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */

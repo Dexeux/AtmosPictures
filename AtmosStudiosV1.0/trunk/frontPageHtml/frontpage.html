@@ -2,6 +2,7 @@
 
 <html  xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Atmos Pictures</title>
     <link rel="stylesheet"  type="text/css" href = "../CSS/homepage.css" media = screen>
@@ -10,57 +11,87 @@
 
 <body>
   <div class="header">
-    <img class="picture" src="..\images\white-logo.png"/>
-    <div class="divider">
-      |
-    </div>
-    <div class="link " id="videos">
-      <div class="linktext">
-        videos
+    <div class="left-header">
+      <img class="picture" src="..\images\white-logo.png"/>
+      <div class="link">
+        <div class="divider">
+          |
+        </div>
+      </div>
+      <div class="link " id="videos">
+        <div class="linktext">
+          videos
+        </div>
+      </div>
+      <div class="link">
+        <div class="divider">
+          |
+        </div>
+      </div>
+      <div class="link " id="pictures">
+        <div class="linktext">
+          pictures
+        </div>
+      </div>
+      <div class="link">
+        <div class="divider">
+          |
+        </div>
+      </div>
+      <div class="link " id="music">
+        <div class="linktext">
+          music
+        </div>
+      </div>
+      <div class="link">
+        <div class="divider">
+          |
+        </div>
+      </div>
+      <div class="link " id="forum">
+        <div class="linktext">
+          forum
+        </div>
+      </div>
+      <div class="link">
+        <div class="divider">
+          |
+        </div>
+      </div>
+      <div class="link " id="about">
+        <div class="linktext">
+          about
+        </div>
+      </div>
+      <div class="link">
+        <div class="divider">
+          |
+        </div>
       </div>
     </div>
-    <div class="divider">
-      |
-    </div>
-    <div class="link " id="pictures">
-      <div class="linktext">
-        pictures
-      </div>
-    </div>
-    <div class="divider">
-      |
-    </div>
-    <div class="link " id="music">
-      <div class="linktext">
-        music
-      </div>
-    </div>
-    <div class="divider">
-      |
-    </div>
-    <div class="link " id="forum">
-      <div class="linktext">
-        forum
-      </div>
-    </div>
-    <div class="divider">
-      |
-    </div>
-    <div class="link " id="about">
-      <div class="linktext">
-        about
-      </div>
-    </div>
-    <div class="divider">
-      |
-    </div>
-
   </div>
 
 
   <div class="footer">
 
   </div>
+
+<script>
+if ( $(window).width() < 1000){
+  $(".header").width(1000);
+}
+else{
+  $(".header").width("100%");
+}
+$( window ).resize(function() {
+  if ( $(window).width() < 1000){
+    $(".header").width(1000);
+  }
+  else{
+    $(".header").width("100%");
+  }
+});
+</script>
 
 </body>
 </html>
